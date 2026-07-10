@@ -1,0 +1,11 @@
+# Optional — ARENA Chapter 3 (LLM evals). NOT needed for lec1–lec12 notebooks.
+#
+# Install:
+#   pip install -r requirements-evals.txt
+
+-r requirements.txt
+
+inspect_ai
+wikipedia
+anthropic>=0.42.0
+instructor

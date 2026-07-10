@@ -1,5 +1,19 @@
 # Interpretability Beginner
 
+## 环境
+
+```bash
+conda create -n interpretability python=3.10
+conda activate interpretability
+pip install -r requirements.txt
+```
+
+- **`requirements.txt`** — lec1–lec12 所需（Chapter 1 可解释性）
+- **`requirements-rl.txt`** — 可选，ARENA Chapter 2（RL），需 **Python 3.11+**
+- **`requirements-evals.txt`** — 可选，ARENA Chapter 3（evals）
+
+在 VS Code / Jupyter 中选择 **`interpretability`** kernel。Notebook 的 Setup cell **不会**再自动 `pip install`，只会校验依赖是否已安装。
+
 每节目录包含：
 
 - `lecture.md` — 讲义
